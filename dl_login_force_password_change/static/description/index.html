@@ -1,54 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>DL Login Force Password Change</title>
+  <meta charset="UTF-8" />
+  <title>🔐 DL Login Force Password Change</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; color: #222; line-height: 1.6; margin: 20px; }
+    .container { max-width: 880px; margin: auto; }
+    h1 { font-size: 28px; margin-bottom: 6px; }
+    h2 { font-size: 20px; margin-top: 24px; }
+    p.lead { color: #555; margin-top: 0; font-size: 1.1rem; }
+    .price { font-weight: bold; color: #0a66c2; margin: 8px 0 18px; font-size: 1.1rem; }
+    img.sshot { max-width: 100%; border: 1px solid #e0e0e0; margin: 10px 0; display:block; border-radius: 6px; }
+    .support { background:#f8f9fb; padding:12px; border-radius:6px; margin-top:18px; }
+    ul { margin-left: 1.2rem; }
+    .meta { color:#666; font-size:0.95rem; margin-top:6px; }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
-
+<body>
+  <div class="container">
     <h1>🔐 DL Login Force Password Change</h1>
-    <p>
-        Aumente a segurança da sua instância Odoo. <br>
-        Este módulo força os utilizadores a alterar a senha no primeiro login. <br>
-        É ideal para reforçar a segurança em ambientes corporativos e garantir que cada conta tem uma senha personalizada e segura.
-    </p>
+    <p class="lead">🚀 Boost the security of your Odoo 17.0 instance!  
+    This module forces users to change their password at their **first login** 🔑.  
+    Perfect for corporate environments where strong password practices are a must. 🛡️</p>
 
-    <h2>⚙️ Como funciona?</h2>
+    <p class="price">💲 Price: 16 USD</p>
+
+    <h2>⚙️ How it works</h2>
     <ol>
-        <li>Vá para <strong>Configurações &gt; Utilizadores</strong>.</li>
-        <li>Crie um novo utilizador ou edite um já existente.</li>
-        <li>Ative a opção <em>Force password change on Next Login</em>.</li>
-        <li>No próximo login, o utilizador será obrigado a alterar a sua senha antes de continuar.</li>
+      <li>➡️ Go to <strong>Settings &gt; Users</strong>.</li>
+      <li>👤 Create a new user or edit an existing one.</li>
+      <li>✅ Enable the option <em>Force password change on Next Login</em>.</li>
+      <li>🔄 At next login, the user must set a new password before continuing.</li>
     </ol>
 
-    <h2>📸 Screenshots</h2>
+    <h2>✨ Key Features</h2>
     <ul>
-        <li>Screenshot 1: Configuração do utilizador com a opção ativa.</li>
-        <li>Screenshot 2: Tela de login com o pedido de alteração de senha.</li>
-        <li>Screenshot 3: Ecrã de alteração de senha obrigatória.</li>
+      <li>🔒 Enforce password change at first login or on demand.</li>
+      <li>👥 Works for both new and existing users.</li>
+      <li>⚡ Lightweight & easy to install.</li>
+      <li>🖥️ Clear user flow with a simple password change screen.</li>
     </ul>
 
-    <div style="margin-top: 20px;">
-        <img src="screenshot1.png" alt="Screenshot 1" style="max-width: 100%; border: 1px solid #ccc; margin-bottom: 10px;"><br>
-        <img src="screenshot2.png" alt="Screenshot 2" style="max-width: 100%; border: 1px solid #ccc; margin-bottom: 10px;"><br>
-        <img src="screenshot3.png" alt="Screenshot 3" style="max-width: 100%; border: 1px solid #ccc;">
+    <h2>📸 Screenshots</h2>
+    <p class="meta">Examples of the module in action:</p>
+    <img src="screenshot1.png" alt="User settings with force password change option" class="sshot" />
+    <img src="screenshot2.png" alt="Login page requiring password update" class="sshot" />
+    <img src="screenshot3.png" alt="Password change wizard" class="sshot" />
+
+    <h2>📦 Installation</h2>
+    <ol>
+      <li>📂 Place this module inside your Odoo addons folder.</li>
+      <li>🔄 Update the apps list.</li>
+      <li>📥 Install the module from the Apps menu.</li>
+      <li>⚙️ Configure users with the option enabled.</li>
+    </ol>
+
+    <div class="support">
+      <h2>💬 Support</h2>
+      <p>Need help or feature requests?</p>
+      <ul>
+        <li>📧 Email: <a href="mailto:geral@digitalub.ao">geral@digitalub.ao</a></li>
+        <li>🐞 Report issues: <a href="https://github.com/dl-digitalub-AO/dl_login_force_password_change/issues" target="_blank" rel="noopener">GitHub Issues</a></li>
+        <li>⏱️ Response time: 1–2 business days</li>
+      </ul>
+      <p class="meta">✅ Compatibility: Odoo 17.0 | 📜 License: AGPL-3</p>
     </div>
 
-    <hr style="margin: 32px 0;">
-
-    <h2>🛠️ Suporte</h2>
-    <p>Precisa de ajuda com a instalação, configuração ou encontrou um problema?</p>
-    <ul>
-        <li><strong>E-mail de suporte:</strong> <a href="mailto:geral@digitalub.ao">geral@digitalub.ao</a></li>
-        <li><strong>Reportar um erro / solicitar melhoria:</strong> 
-            <a href="https://github.com/dl-digitalub-AO/dl_login_force_password_change/issues" target="_blank" rel="noopener">
-                Abrir um issue no GitHub
-            </a>
-        </li>
-        <li><strong>Tempo de resposta:</strong> normalmente em 1–2 dias úteis.</li>
-        <li><strong>Compatibilidade:</strong> Odoo 17.0</li>
-        <li><strong>Licença:</strong> AGPL-3</li>
-    </ul>
-
+    <p class="meta">👨‍💻 Developed by DIGITALUB ANGOLA, LDA — <a href="https://www.digitalub.ao" target="_blank" rel="noopener">digitalub.ao</a></p>
+  </div>
 </body>
 </html>
